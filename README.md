@@ -20,11 +20,13 @@ Run Unit test
 ------------
 yarn test
 
-Modules:
+Modules
+------------
 - List
 - Item Details
 
-Technical Features:
+Technical Features
+------------
 - StandardJS to lint code
 - React Hooks like useState and useEffect (with async/await)
 - HTTP request using axios
@@ -34,7 +36,8 @@ Technical Features:
 - Images with defaultSource
 - unit test
 
-Technical Requirements:
+Technical Requirements
+------------
 - Expo 38.0.8 or higher
 - React 16.11.0
 - react-native-cli: 2.0.1
