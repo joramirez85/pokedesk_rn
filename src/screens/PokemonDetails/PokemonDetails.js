@@ -47,7 +47,7 @@ const PokemonDetails = (props) => {
       <View style={styles.pokeNumberContainer}>
         <Text style={styles.pokeNumber}>{index}</Text>
       </View>
-      <View style={styles.separator}></View>
+      <View style={styles.separator} />
       <Image
         style={styles.tinyLogo}
         source={{
