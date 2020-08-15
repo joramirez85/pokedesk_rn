@@ -11,7 +11,10 @@ const styles = StyleSheet.create({
     paddingLeft: 10,
     paddingRight: 10,
     marginVertical: 8,
-    marginHorizontal: 16
+    marginHorizontal: 16,
+    borderRadius:10,
+    borderWidth: 1,
+    borderColor: Colors.white
   },
   imageView: {
     width: '30%',
