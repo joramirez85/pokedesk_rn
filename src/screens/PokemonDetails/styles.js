@@ -13,12 +13,34 @@ const styles = StyleSheet.create({
     height: 200
   },
   title: {
-    fontWeight: 'bold',
     fontSize: 20,
     color: Colors.darkBlue,
-    marginBottom: 40,
-    paddingLeft: 20,
-    paddingTop: 20
+    paddingLeft: 10,
+    width: 300
+  },
+  separator: {
+    height: 1,
+    width: '100%',
+    backgroundColor: Colors.softRed
+  },
+  details: {
+    minHeight: 300,
+    borderRadius: 10,
+    borderWidth: 1,
+    borderColor: Colors.darkBlue
+  },
+  pokeNumber: {
+    paddingLeft: 10,
+    fontSize: 20,
+    height: 40,
+    color: Colors.darkBlue
+  },
+  pokeNumberContainer: {
+    alignItems: 'flex-start',
+    justifyContent: 'center',
+    width: '100%',
+    minWidth: 200,
+    height: 50
   }
 })
 

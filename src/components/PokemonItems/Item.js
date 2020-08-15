@@ -5,11 +5,13 @@ import {
   Image,
   TouchableOpacity
 } from 'react-native'
+
+import * as _ from 'lodash'
 import styles from './styles'
 
 const handleItemSelected = (params) => {
   const navigateParams = {
-    pokeName: params.pokeName,
+    pokeName: _.capitalize(params.pokeName),
     url: params.url,
     urlImage: params.urlImage,
     index: params.index
@@ -23,6 +25,9 @@ export default (props) => {
       style={styles.item}
       onPress={() => handleItemSelected(props)}
     >
+      <View>
+        <Text style={styles.pokeNumber}>{props.index}</Text>
+      </View>
       <View style={styles.imageView}>
         <Image
           style={styles.tinyLogo}

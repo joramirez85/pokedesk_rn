@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { SafeAreaView, FlatList } from 'react-native'
+import * as _ from 'lodash'
 
 import RenderItem from '../../components/PokemonItems/PokemonItem'
 import { getPokemonList } from '../../services/PokemonService'
@@ -11,7 +12,7 @@ const mapData = (pokemons) => {
     const imageUrl = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemonIndex}.png`
 
     return {
-      name: pokemon.name,
+      name: _.capitalize(pokemon.name),
       imageUrl,
       index: pokemonIndex,
       url: pokemon.url
