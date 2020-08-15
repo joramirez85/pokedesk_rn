@@ -27,13 +27,11 @@ const PokemonDetails = (props) => {
 
   const mapData = (data) => {
     const abilities = data.abilities.map(ability => formatAbility(ability.ability.name)).join(',')
-    const test = {
+    return {
       abilities,
       height: data.height,
       weight: data.weight
     }
-    console.log('** test: ', test)
-    return test
   }
 
   useEffect(() => {
