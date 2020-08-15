@@ -19,8 +19,8 @@ function RootNavigator () {
     <Stack.Navigator
       initialRouteName='PokemonList'
     >
-      <Stack.Screen options={{ title: 'Lista de Pokemons' }} name='PokemonList' component={PokemonList} />
-      <Stack.Screen options={{ title: 'Detalles de Pokemon' }} name='PokemonDetails' component={PokemonDetails} />
+      <Stack.Screen options={{ title: 'Pokemon List' }} name='PokemonList' component={PokemonList} />
+      <Stack.Screen options={{ title: 'Pokemon Details' }} name='PokemonDetails' component={PokemonDetails} />
     </Stack.Navigator>
   )
 }
