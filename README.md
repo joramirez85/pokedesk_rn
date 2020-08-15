@@ -16,6 +16,10 @@ Here some screens:
 <img src="https://i.ibb.co/ZM2fKW1/IMG-3508.png" width="300">
 <img src="https://i.ibb.co/fq9mmbL/IMG-3509.png" width="300">
 
+Run Unit test
+------------
+yarn test
+
 Modules:
 - List
 - Item Details
@@ -28,6 +32,7 @@ Technical Features:
 - SafeArea
 - FlatList
 - Images with defaultSource
+- unit test
 
 Technical Requirements:
 - Expo 38.0.8 or higher
